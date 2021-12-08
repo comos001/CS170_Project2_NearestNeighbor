@@ -18,14 +18,6 @@ Node::Node(float accuracy, vector<int> feature_subset){
 
 Node::~Node(){};
 
-void Node::add_feature(int feature){
-    this->feature_subset.push_back(feature);
-}
-
-void Node::remove_feature(int feature){
-    
-}
-
 long double Node::get_accuracy(){
     return this->accuracy;
 }
